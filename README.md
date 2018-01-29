@@ -1,14 +1,17 @@
 # bashscripts
 A set of utility bash scripts
 
-## Append.sh
+## append.sh
+A script to recursively iterate sub-directories and files and append a suffix to the end of the directory/file name. The suffix is taken as an input argument.
+execution: ./append.sh "suffix to append"
 
-## Append.sh
 
-## Append.sh
+## delete.sh
 
-## Append.sh
+## javascript.sh
 
-## Append.sh
+## level-up.sh
 
-## Append.sh
+## script.sh
+
+## undo.sh
